@@ -1,0 +1,162 @@
+body {
+    background-size: cover;
+    min-height: 100%;
+    color: #777b7d;
+}
+a{
+    color: #d3d9dc;
+    text-decoration: none;
+}
+header{
+    background-color: white;
+
+}
+.menu-item {
+    transition: all 3s;
+}
+
+.header_container{
+    margin: 0 auto;
+    width: 90%;
+    height: 60%;
+    box-sizing: border-box;
+}
+
+.padding_top{
+    padding-top: 14px;
+}
+.logo{
+    margin-top: 0px;
+    margin-right: 10px;
+}
+.header_container li{
+    display: inline-block ;
+}
+.drop-down{
+    position: relative;
+
+}
+
+
+.drop-down ul{
+    margin-right: 100%;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    display: none;
+    background: #14bc98;
+    padding-left: 0;
+    border-radius: 5px;
+}
+
+
+.drop-down ul li{
+    padding: 20px;
+    transition: all .2s;
+
+}
+.drop-down:hover ul{
+    display: block;
+}
+
+nav {
+    float: right;
+}
+.clear_both {
+    clear: both;
+}
+li {
+    list-style-type: none;
+}
+.header_container li{
+    padding: 11px 16px;
+}
+
+.header_container li:hover:not(:last-child){
+    background: #1abc9c;
+    border-radius: 5px;
+}
+.header_container ul li:hover a:not(.img_header_nav){
+    color: white;
+}
+
+.header_container ul li a {
+    text-decoration: none;
+    color: #777b7d;
+    font-size: 0.9375em;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+.bottom_text p:not(:first-child),#main_column ul li{
+    display: inline-block;
+}
+.header_container>div:first-child{
+    margin-bottom: 50px;
+}
+.header_container div:last-child{
+
+}
+
+.fl_right{
+    float: right;
+}
+
+.fl_left{
+    float: left;
+}
+
+.container ul{
+    list-style:circle ;
+}
+
+
+.bottom_information{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.title{
+    text-align: center;
+    margin: 2em 0;
+}
+.news{
+    display: flex;
+}
+
+footer{
+    bottom:0;
+    background-color: #bdc3c7;
+}
+.social_icons img:first-child{
+    height: 36px;
+}
+.bottom_information li{
+    display: inline-block;
+
+}
+.bottom_information div{
+    text-align: right;
+}
+.bottom_information span, .bottom_information div{
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 12px;
+}
+.bottom_information span{
+    position: static;
+    margin-left: 500px;
+}
+
+.text1 {
+    text-align: center;
+}
+button,
+input,
+select,
+textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 2 */
+    margin: 0; /* 3 */
+}
