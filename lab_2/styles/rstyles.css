@@ -26,8 +26,8 @@ header{
     padding-top: 14px;
 }
 .logo{
-    margin-top: 0px;
-    margin-right: 10px;
+    margin-top: 100px;
+    margin-right: 100px;
 }
 .header_container li{
     display: inline-block ;
@@ -41,12 +41,13 @@ header{
 .drop-down ul{
     margin-right: 100%;
     position: absolute;
-    top: 40px;
+    top: 73px;
     left: 0px;
     display: none;
-    background: #14bc98;
+    color: #777b7d;
     padding-left: 0;
     border-radius: 5px;
+    background-color: #515557;
 }
 
 
@@ -73,7 +74,7 @@ li {
 }
 
 .header_container li:hover:not(:last-child){
-    background: #1abc9c;
+    background: #515557;
     border-radius: 5px;
 }
 .header_container ul li:hover a:not(.img_header_nav){
@@ -161,30 +162,8 @@ textarea {
     margin: 0; /* 3 */
 }
 
-p{
-    font-size: 20px;
-    padding-left: 10px;
-}
-p {
-    animation-duration: 3s;
-    animation-name: slidein;
-}
+.bottom_text {
 
-@keyframes slidein {
-    0% {
-        margin-left: 100%;
-        transform: scaleX(3);
-    }
+    margin-top: 100px;
 
-    100% {
-        margin-left: 0%;
-        width: 100%;
-    }
-}
-iframe{
-    margin:20px;
-    width:100%;
-}
-nav-item {
-    transition: all 2s;
 }
