@@ -12,7 +12,7 @@ header{
 
 }
 .nav-item {
-    transition: all 3s;
+    transition: all .5s;
 }
 
 .header_container{
@@ -128,7 +128,8 @@ li {
 
 footer{
     bottom:0;
-    background-color: #bdc3c7;
+    background-color: #515557;
+    display: block;
 }
 .social_icons img:first-child{
     height: 36px;
@@ -166,4 +167,10 @@ textarea {
 
     margin-top: 100px;
 
+}
+
+.bottom_information {
+    color: #777b7d;
+    min-width: 1200px;
+    margin: 0 auto;
 }
