@@ -11,7 +11,7 @@ header{
     background-color: white;
 
 }
-.menu-item {
+.nav-item {
     transition: all 3s;
 }
 
@@ -159,4 +159,32 @@ textarea {
     font-family: inherit; /* 1 */
     font-size: 100%; /* 2 */
     margin: 0; /* 3 */
+}
+
+p{
+    font-size: 20px;
+    padding-left: 10px;
+}
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    0% {
+        margin-left: 100%;
+        transform: scaleX(3);
+    }
+
+    100% {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+iframe{
+    margin:20px;
+    width:100%;
+}
+nav-item {
+    transition: all 2s;
 }
